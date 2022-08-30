@@ -1,0 +1,200 @@
+
+/* Container */
+.content-container {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px 0;
+    min-height: 400px;
+    letter-spacing: .04em;
+    line-height: 1.7142857143;
+    margin-top: 40px;
+
+    color: #2b546a;
+}
+
+.dashboard-container {
+    display: flex;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.dashboard-left_container {
+    padding-right: 4%;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.dashboard-right_container {
+    width: 266px;
+}
+
+.row {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* User Profile */
+.profile-separator {
+    background-color: #e9edf4;
+    width: 1px;
+    height: 96px;
+    margin: 0 65px;
+    display: flex;
+}
+
+.profile-card {
+    box-shadow: 0 2px 10px rgb(0 0 0 / 4%);
+    position: relative;
+    width: 100%;
+    border-radius: 3px;
+    background-color: #fff;
+}
+
+.user-profile {
+    padding: 24px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #2b546a;
+}
+
+.user-details_profile {
+    display: flex;
+    align-items: center;
+}
+
+.user-image_profile {
+    position: relative;
+    text-align: center;
+}
+
+.user-image_profile, .profile-image {
+    box-shadow: 0 2px 10px rgba(0,0,0,0.12);
+    height: 80px;
+    width: 80px;
+    margin-right: 16px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    float: left;
+}
+
+.user-status_profile {
+    float: left;
+    text-align: left;
+}
+
+.user-status_name {
+    font-size: 0.875rem;
+    max-width: 112px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.user-status_level {
+    font-size: 1.25rem;
+}
+
+.user-lessons_profile .user-exercises_profile {
+    text-align: center;
+}
+
+.user-exercises_complete {
+    font-size: 2rem;
+    line-height: 1.5rem;
+    display: inline-flex;
+    align-items: flex-end;
+    margin-bottom: 8px;
+}
+
+.user-exercises_complete {
+    margin-right: 4px;
+    width: 18px;
+}
+
+.user-lessons_complete {
+    font-size: 2rem;
+    line-height: 1.5rem;
+    display: inline-flex;
+    align-items: flex-end;
+    margin-bottom: 8px;
+}
+
+.user-lessons_image, .user-exercises_image {
+    margin-right: 4px;
+    width: 18px;
+}
+
+/* Contitnue Learning */
+
+.next-lesson {}
+
+.next-lesson_heading {
+    padding-top: 56px;
+    padding-bottom: 24px;
+}
+
+.next-lesson_title {
+    display: inline-flex;
+    align-items: center;
+}
+
+.next-lesson_title > h2 {
+    font-weight: normal;
+    font-family: Lato, "Hiragino Maru Gothic Pro", "Meiryo UI", Meiryo, "MS PGothic", sans-serif;
+    color: rgb(43, 84, 106);
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    margin: 0px 0px 0px 8px;
+    font-size: 1rem;
+}
+
+.next-lesson_card {}
+
+.next-lesson-image_container {}
+
+.next-lesson_image {}
+
+.next-lesson-card_content {}
+
+.next-lesson-card_details {}
+
+.next-lesson-card_title {}
+
+.next-lesson-card_page-title {}
+
+.next-lesson-card_progress-bar {}
+
+.progress-bar {}
+
+.next-lesson-card_button {}
+
+
+/* Lessons in progress */
+
+/* Completed Lessons */
+
+/* Progress Calendar */
+/* Language Achievements */
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 767px) {
+    .hidden {
+        display: none !important;
+    }
+    .dashboard-left_container {
+        padding-right: 0;
+        width: 100%;
+    }
+
+}
+@media only screen and (max-width: 1199px) {
+    .dashboard-container {
+        padding: 0 2.8%;
+    }
+}
