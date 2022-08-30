@@ -1,4 +1,4 @@
-# Reafactory Catalayst 12th Cohort 2022
+# Refactory Catalyst 12th Cohort 2022
 ## Instructions for mini project
 
 Note: No Database required
@@ -10,12 +10,13 @@ Note: No Database required
 
 ### Resources
 - Progate -> images and design
-- W3Schools
-- CSS Tricks
-- FontAwesome
-- Hero Patterns
+- W3Schools -> CSS
+- CSS Tricks -> navbar
+- FontAwesome -> dropdown icon
+- Hero Patterns -> background generator
 - NoTimeDad -> responsive-footer-css-grid
 - 
+
 ### Colors Used
 - #f2f2f2
 - #04AA6D
