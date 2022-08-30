@@ -10,7 +10,7 @@ Note: No Database required
 
 ### Resources
 - Progate -> images and design
-- W3Schools -> CSS
+- W3Schools -> CSS and HTML
 - CSS Tricks -> navbar
 - FontAwesome -> dropdown icon
 - Hero Patterns -> background generator
