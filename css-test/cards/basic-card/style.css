@@ -1,0 +1,30 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    width: 20%;
+    text-align: center;
+    background-color: whitesmoke;
+}
+  
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+.container {
+    padding: 2px 16px;
+    background-color: #f2f2f2;
+    color: #2b546a;
+    border: 1px solid #2b546a;
+}
+
+.container p {
+    color: #2b546a;
+}
+
+img {
+    border-radius: 5px 5px 0 0;
+    width: 80%;
+    height: auto;
+    padding: 5px;
+}
